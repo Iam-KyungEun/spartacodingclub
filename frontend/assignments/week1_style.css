@@ -1,0 +1,73 @@
+/* global set */
+* {
+    display: border-box;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+/* order section */
+#order {
+    width: 600px;
+    margin: 20px auto;
+    margin-bottom: 100px;
+}
+
+.product-img {
+    display: block;
+    width: 80%;
+    height: 80%;
+    margin: auto;
+    border: 2px solid black;
+    border-radius: 5%;
+}
+/* price font lighter */
+.price {
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+.form-list {
+    display: flex;
+    align-items: space-around;
+    margin: 20px 0; 
+    width: 100%;
+}
+
+/* form box size */
+input[type="text"],
+input[type="number"] {
+    width: 300px;
+    height: 20px;
+    border-radius: 3px;
+}
+
+/* Summit Button */
+.summit-btn {
+    display: block;
+    margin: 50px auto;
+    width: 120px;
+    height: 30px;
+    background-color: rgb(53, 137, 247);
+    border: 1px solid black;
+    border-radius: 3px;
+    color: white;
+    font-size: 16px;
+    font-weight: bolder;
+}
+
+.summit-btn:hover {
+    cursor: pointer;
+}
+
+h2 {
+    font-size: 50px;
+}
+
+p,
+label {
+    font-size: 20px;
+}
+
+label {
+    margin-right: 10px;
+}
+
