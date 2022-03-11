@@ -1,0 +1,147 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Gaegu', cursive;
+}
+
+section {
+    width: 900px;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+/* header section */
+
+#header {
+    background-color: rgb(241, 241, 241);
+    margin: auto 0;
+    width: 100%;
+    height: 400px;
+    text-align: left;
+    padding: 60px 30px;
+    border-radius: 10px;
+}
+
+h1 {
+    font-size: 50px;
+    font-weight: lighter;
+    margin: 0;
+}
+
+.introduce {
+    font-size: 20px;
+    font-weight: 100;
+    margin-top: 10px;
+    margin-bottom: 28px;
+}
+
+.description {
+    font-size: 17px;
+    font-weight: 400;
+    margin: 25px 0px 15px 0px;
+}
+
+.learn-more-btn {
+    width: 140px;
+    height: 50px;
+    background-color: rgb(43, 114, 245);
+    color: white;
+    font-size: 18px;
+    border: hidden;
+    border-radius: 5px;
+}
+
+/* button hover effect */
+.learn-more-btn:hover {
+    cursor: pointer;
+}
+
+.articlediv {
+    width: 500px;
+    height:fit-content;
+    margin: auto;
+    border: 3px solid black;
+    border-radius: 4px;
+    padding: 50px 50px;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.article-form {
+    width: 100%;
+    margin: 0px 0px;
+}
+
+input[type="text"] {
+    margin: 10px 0 20px 0;
+    padding: 10px;
+    height: 34px;
+    border: 1px solid black;
+    border-radius: 3px;
+    font-size: 16px;
+}
+
+textarea {
+    resize: vertical;
+    /* overflow: auto; */
+    height: 70px;
+    margin: 10px 0px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 3px;
+    font-size: 16px;
+
+}
+
+.summit-btn {
+    background-color:rgb(1, 119, 253);
+    color: white;
+    width: 80px;
+    height: 40px;
+    border: hidden;
+    border-radius: 3px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.summit-btn:hover {
+    cursor: pointer;
+}
+/* card section*/
+
+#cards {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.card {
+    margin: 15px 0;
+    width: 290px;
+    height: 400px; 
+    border: 1px solid rgb(182, 177, 177);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.card img {
+    width: 100%;
+    height: 50%;
+}
+
+.card h3,
+.card p {
+    padding: 0 20px;
+}
+.card h3 {
+    color: rgb(65, 110, 235);
+    margin: 14px 0 10px 0;
+    font-size: 20px;
+}
+
+.card p {
+    font-size: 15px;
+    margin: 5px 0; 
+}
